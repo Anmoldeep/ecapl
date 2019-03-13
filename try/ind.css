@@ -1,0 +1,18 @@
+.grid {
+    display: grid;
+    border: 2px blue solid;
+   
+    height: 500px;
+    
+    grid-template: 100px minmax(100px, 500px) 100px / 3fr 50%;
+}
+
+
+.box {
+    background-color: gold;
+    color: black;
+    border-radius: 5px;
+    border: 2px dodgerblue solid;
+  }
+  
+
